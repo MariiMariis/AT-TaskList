@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_email">Insira seu email</string>
+    <string name="hintpass">Insira sua senha</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonCadastro">Cadastro</string>
+    <string name="title_email">Email:</string>
+    <string name="email_pass">Senha:</string>
+    <string name="buttonRealizar">Realizar Cadastro</string>
+    <string name="data_card">Data</string>
+    <string name="title_notes">Create Notes</string>
+    <string name="title_Realizar">Criar Notes</string>
+    <string name="create_notes">Criar anotação</string>
+    <string name="save_notes">Salvar Anotação</string>
+    <string name="title_name">Nome:</string>
+    <string name="hintname">Insira seu nome</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:fillViewport="true"
+    tools:context=".ui.login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageViewNotes"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/ic__803966_checklist_clipboard_task_todo_icon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_email_login_email"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/emailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:cursorVisible="true"
+            android:hint="@string/hint_email"
+            android:padding="14dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/bg_edit"
+            android:textColor="@color/bg_color"
+            android:textColorHint="@color/hint_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_password_login_password"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/senhaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:cursorVisible="true"
+            android:hint="@string/hintpass"
+            android:padding="14dp"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@null"
+            android:background="@drawable/bg_edit"
+            android:textColor="@color/bg_color"
+            android:textColorHint="@color/hint_gray" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="@string/buttonLogin"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/bg_color" />
+
+        <Button
+            android:id="@+id/buttonCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/buttonCadastro"
+            app:backgroundTint="@null"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/bg_color"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

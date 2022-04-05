@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.ump:user-messaging-platform:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c768c55aa1c5a65091d9abe6cc04f6a/user-messaging-platform-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/63489ea007d2e41bafbb9164de1eda03/user-messaging-platform-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/63489ea007d2e41bafbb9164de1eda03/user-messaging-platform-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/63489ea007d2e41bafbb9164de1eda03/user-messaging-platform-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.ump/user-messaging-platform/1.0.0/d735fbf1a7e252ffda813ef2622c3a1ccdd2bb3c/user-messaging-platform-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">KeepTask</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hint_email">Insira seu email</string>
+    <string name="hintpass">Insira sua senha</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonCadastro">Cadastro</string>
+    <string name="title_email">Email:</string>
+    <string name="email_pass">Senha:</string>
+    <string name="buttonRealizar">Realizar Cadastro</string>
+    <string name="data_card">Data</string>
+    <string name="title_notes">Create Notes</string>
+    <string name="title_Realizar">Criar Notes</string>
+    <string name="create_notes">Criar anotação</string>
+    <string name="save_notes">Salvar Anotação</string>
+    <string name="todo">TODO</string>
+    <string name="title_name">Nome:</string>
+    <string name="hintname">Insira seu nome</string>
+
+
+    <!--    Login Fragment-->
+    <string name="text_email_login_email">E-mail</string>
+    <string name="text_email_login_email_hint">email@email.com</string>
+    <string name="text_password_login_password">Senha</string>
+    <string name="text_password_login_password_hint">******</string>
+    <string name="btn_login_screen">Login</string>
+    <string name="text_register_login_fragment">Criar conta</string>
+    <string name="text_recover_login_fragment">Recuperar conta</string>
+
+    <!--    Register Fragment-->
+    <string name="btn_text_create_account">Criar conta</string>
+    <string name="toolbar_create_account_text">Criar conta</string>
+
+    <!--    Recover Account Fragment-->
+    <string name="toolbar_recover_account_text">Recuperar conta</string>
+    <string name="text_recover_account">"Insira o e-mail cadastrado "</string>
+    <string name="recover_account_email_hint">email@email.com</string>
+    <string name="btn_send_email_text">Enviar email</string>
+    <string name="task_carregando_tarefas_text">Carregando tarefas</string>
+    <string name="adicionar_tarefa_description">Adicionar tarefa</string>
+
+    <!--    Validation Errors - Auth-->
+    <string name="account_not_registered">Não foi encontrado nenhum cadastro com este e-mail</string>
+    <string name="invalid_email">Por favor, insira um e-mail válido</string>
+    <string name="invalid_password">Senha incorreta. Tente novamente.</string>
+    <string name="email_already_in_use">O e-mail informado já está cadastrado.</string>
+    <string name="weak_password">A senha informada é muito fraca. Insira uma com mais de 6 caracteres.</string>
+    <string name="generic_auth_error">Ocorreu um erro desconhecido. Tente novamente mais tarde</string>
+
+    <!--    Tasks-->
+    <string name="nova_tarefa">Nova Tarefa</string>
+    <string name="text_tarefa">Tarefa</string>
+    <string name="text_status">Status</string>
+    <string name="text_btn_salvar">Salvar</string>
+    <string name="text_insira_nova_tarefa">Insira aqui uma tarefa</string>
+    <string name="radio_btn_todo">A fazer</string>
+    <string name="radio_btn_doing">Fazendo</string>
+    <string name="radio_btn_done">Feito</string>
+    <string name="btn_remover">Remover</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_detalhes">Detalhes</string>
+    <string name="edit_task">Editar tarefa</string>
+
+
+    <!--  TO DO TASK  /-->
+    <string name="no_task_registered_todo">Nenhuma tarefa cadastrada</string>
+
+    <!-- DOING TASK  /-->
+    <string name="no_task_registered_doing">Nenhuma tarefa cadastrada</string>
+
+    <!--  DONE TASK  /-->
+    <string name="no_task_registered_done">Nenhuma tarefa cadastrada</string>
+
+    <!--  ADMOB  /-->
+    <string name="btn_de_logout">Botão de logout</string>
+    <string name="adicionar_imagem">Adicionar Imagem</string>
+</resources>
