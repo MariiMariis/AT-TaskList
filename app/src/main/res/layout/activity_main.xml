@@ -8,6 +8,8 @@
     android:background="@color/bg_color"
     tools:context=".MainActivity">
 
+
+
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
@@ -31,8 +33,8 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floating"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
@@ -52,6 +54,7 @@
             android:layout_alignParentBottom="true"
             app:adSize="BANNER"
             app:adUnitId="ca-app-pub-8404806525691340/2636120630" />
+
     </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -67,5 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/drawer" />
+
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

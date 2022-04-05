@@ -5,7 +5,7 @@
             android:icon="@drawable/ic_baseline_edit_note_24"
             android:id="@+id/home"
             android:checked="true"
-            android:title="Anotations"
+            android:title="Tasks"
             />
         <item
             android:icon="@drawable/ic_baseline_run_circle_24"
